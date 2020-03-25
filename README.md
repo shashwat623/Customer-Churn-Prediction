@@ -31,7 +31,7 @@ With help from the visual analysis of the data, the relationship between each in
 Random Forest Classifier was chosen as the final model for prediction, which after applying the estimator from parameter tuning, gave us a score of 87.88%
 The cross validated score for the same was 82.24%. Other accuracy and performance metrics like Confusion matrix and AU-ROC Curve (for classification models) is given in the uploaded jupyter notebook.
 
-# Here's what we learnt
+# Here's what we learned
 The key factors predicting a customer’s churn are Total Charges, Monthly Charges & Tenure. The greater total charges and tenure are, the less is the probability to churn. Users with a month to month contract are more likely to churn than users with long term contracts.
 These factors clearly make sense as apart from services, cost is the main factor guiding a customer’s decision. Tenure is another important factor as a customer will only opt for a longer tenure if he/she is satisfied with the company’s services and price.
 
