@@ -37,6 +37,14 @@ These factors clearly make sense as apart from services, cost is the main factor
 
 Customers should be encouraged to opt for long term contract with reasonable long-term price offers. Further service benefits must be given to long term customers. Customers should be made aware of various optional benefits with the service such as Online Security, Online Backup, Streaming TV etc. and such add on services must be advertised accordingly. Some of these add on offers should be made free of cost with the service.
 Referral and family plan schemes must be introduced to encourage Chain marketing.
+
+# Post action implementation analysis
+Here are few things that can be done to check the result of our implemented offers/actions:
+1. Make a separate data copy of all the predicted to be churners.
+2. Implement the above discussed offers on these customers on a different batch-different offer basis, i.e., different groups of customers would be offered different offers, so as to keep a check on which scheme/offer holds the most potential. 
+3.	After the implementation, check and make note of all the customers who did not churn, but were initially predicted to churn by the model. Take note of this data under the constraint that customers who chose similar offers are to be placed together in the analysis.
+4.	On the above collected data various statistical tests like Wilcoxon signed-rank test, etc., could be applied to check/calculate the efficiency of the actions implemented and rank offers which gave us the best results.
+
    
 
 
